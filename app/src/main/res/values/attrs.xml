@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="default_text_color"
+		format="color"/>
+	<attr name="done_text_color"
+		format="color"/>
+	<attr name="text_size"
+		format="dimension"/>
+	<attr name="default_text"
+		format="string"/>
+	<attr name="done_text"
+		format="string"/>
+	<attr name="anim_style">
+		<enum name="up"
+			value="1"/>
+		<enum name="down"
+			value="2"/>
+		<enum name="left"
+			value="3"/>
+		<enum name="right"
+			value="4"/>
+	</attr>
+	<declare-styleable name="TextAnimButton">
+		<attr name="default_text_color"/>
+		<attr name="done_text_color"/>
+		<attr name="text_size"/>
+		<attr name="default_text"/>
+		<attr name="done_text"/>
+		<attr name="anim_style"></attr>
+	</declare-styleable>
+</resources>
